@@ -7,6 +7,11 @@ body {
 p {
   font-size: 20px;
 }
+
+.half-width {
+  width: 50%;
+}
+
 .button-link {
   text-decoration: none;
   background: linear-gradient(#fba24f, #ff1e1e);
@@ -47,9 +52,6 @@ p {
   width: 600px;
   margin-left: 20%;
 }
-.half-width {
-  width: 50%;
-}
 
 .header-text {
   font-size: 60px;
@@ -75,6 +77,7 @@ p {
   width: 338px;
   margin-top: 64px;
   margin-left: 190px;
+  margin-bottom: -4px;
 }
 .about-text {
   margin-bottom: 30px;
@@ -91,14 +94,14 @@ p {
   justify-content: center;
   margin: 2% 5%;
 }
-.receipie {
+.recipie {
   width: 30%;
   margin: 2%;
   background: rgb(243, 237, 237);
   box-shadow: 10px 10px 10px gray;
   border-radius: 20px;
 }
-.receipie img {
+.recipie img {
   max-width: 95%;
   display: block;
   margin: 0 auto;
@@ -130,6 +133,10 @@ p {
 .review {
   display: flex;
   margin: 5%;
+}
+.review img {
+  width: 400px;
+  margin-bottom: -4px;
 }
 #review-text {
   padding-left: 10%;
