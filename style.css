@@ -18,6 +18,8 @@ p {
   color: #fff;
   border-radius: 20px;
   padding: 10px 20px;
+  display: inline-block;
+  margin-top: 10px;
 }
 
 /* navbar section */
