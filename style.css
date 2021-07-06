@@ -1,0 +1,150 @@
+/* common section */
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-size: 20px;
+}
+.button-link {
+  text-decoration: none;
+  background: linear-gradient(#fba24f, #ff1e1e);
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+/* navbar section */
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  float: right;
+}
+.navbar ul li {
+  margin-right: 30px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: gray;
+}
+.navbar ul li a:hover {
+  color: #fba24f;
+}
+
+/* header section */
+.header-main {
+  background: url(./images/shapes/header.jpg);
+  background-size: cover;
+}
+.header {
+  display: flex;
+  margin-left: 5%;
+}
+.header img {
+  margin-top: 50px;
+  width: 600px;
+  margin-left: 20%;
+}
+.half-width {
+  width: 50%;
+}
+
+.header-text {
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 150px;
+}
+.header-img {
+  margin-top: 82px;
+  width: 658px;
+}
+
+/* about section */
+.about-main {
+  display: flex;
+  background: url(./images/shapes/backgroundabout.jpg);
+  background-size: cover;
+}
+.about-main h1 {
+  color: #707070;
+  margin-top: 200px;
+}
+.about-img {
+  width: 338px;
+  margin-top: 64px;
+  margin-left: 190px;
+}
+.about-text {
+  margin-bottom: 30px;
+}
+
+/* recipies section */
+.my-recipies {
+  margin-top: 3%;
+  text-align: center;
+}
+
+.recipies-item {
+  display: flex;
+  justify-content: center;
+  margin: 2% 5%;
+}
+.receipie {
+  width: 30%;
+  margin: 2%;
+  background: rgb(243, 237, 237);
+  box-shadow: 10px 10px 10px gray;
+  border-radius: 20px;
+}
+.receipie img {
+  max-width: 95%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 2%;
+  border-radius: 30px;
+}
+
+/* followers section */
+.followers {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  background: rgb(240, 234, 234);
+  border-radius: 20px;
+}
+.follower-item {
+  background: #fff;
+  text-align: center;
+  margin: 2%;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+/* review section */
+.review-main {
+  background: url(./images/shapes/review.jpg);
+  background-size: cover;
+}
+.review {
+  display: flex;
+  margin: 5%;
+}
+#review-text {
+  padding-left: 10%;
+  margin-top: 50px;
+}
+
+/* footer section */
+.footer-main {
+  background: url(./images/food/footer.png);
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+.footer {
+  color: #fff;
+  height: 300px;
+  padding-top: 30px;
+}
